@@ -1,3 +1,5 @@
+import Hero from "./Hero";
+import { Navbar } from "./Navbar";
 import { useGlobalContext } from "./context";
 
 const App = () => {
@@ -8,6 +10,13 @@ const App = () => {
 
 
 
-  return <h2>Strapi</h2>;
+  return (
+    <>
+    <Navbar />
+    <Hero />
+    
+    
+    </>
+  )
 };
 export default App;
