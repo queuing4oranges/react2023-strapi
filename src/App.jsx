@@ -6,7 +6,7 @@ const App = () => {
 
   const { isSidebarOpen, openSidebar, closeSidebar } = useGlobalContext()
 
-  console.log(isSidebarOpen);
+  // console.log(isSidebarOpen);
 
 
 

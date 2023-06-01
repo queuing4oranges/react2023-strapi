@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background: var(--backgroundColor);
+  background-color: rgb(78, 4, 195);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
@@ -32,3 +32,95 @@ body {
 }
 
 /* ============= PROJECT CSS =============== */
+
+.hero-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(78, 4, 195);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container h1 {
+  font-size: 4em;
+  line-height: 120%;
+}
+
+.hero-container p {
+  width: 800px;
+  font-size: 1.5em;
+  margin: 50px;
+  text-align: center;
+  line-height: 150%;
+}
+
+.navbar-container {
+  padding-top: 20px;
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-container .logo {
+  width: 30%;
+}
+
+.navbar-container .logo button {
+  float: right;
+}
+
+.navbar-container .sidebar{
+  width: 70%;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-between;
+  /* padding-right: 40%; */
+  text-transform: capitalize;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.sidebar-container p {
+  color: orange;
+}
+
+.bar {
+  position: absolute;
+  right: -20px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.link-container {
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+  width: 800px;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+}
+
+.submenu-container {
+  position: absolute;
+  background-color: white;
+  border: 1px red solid;
+  width: 80vw;
+  height: 150px;
+}
